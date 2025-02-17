@@ -11,7 +11,7 @@ app = FastAPI()
 # Настройка CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Укажите порт фронтенда
+    allow_origins=["http://localhost:3000"],  # порт фронтенда
     allow_methods=["*"],
     allow_headers=["*"],
 )
